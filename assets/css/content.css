@@ -1,21 +1,65 @@
 /* Navigation bar styles */
 nav {
-    background-color: #222222;
-    padding: 10px 0;
+    background-color: #130450;
+    margin: auto;
+
+    text-align: center;
 }
+
+
 nav ul li a {
     font-size: 18px;
     padding: 10px 20px;
+    color: #e7e9ff;
+    display: flex;
+
 }
 nav ul li a:hover {
-    background-color: #444444;
+    background-color: #230896;
+    min-width: 100px;
 }
+
+/* Styles pour le menu dropdown */
+
+.dropdown {
+    position: relative;
+}
+
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 100px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #230896;
+    min-width: 100px;
+}
+
+.dropdown-menu li:hover a {
+    color: #fff;
+    min-width: 100px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #130450;
+    min-width: 100px;
+}
+
+
 
 /* Header styles */
 header {
 
+    background-image: url(../images/index/iabanner.jpg);
     background-size: cover;
-    height: 300px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,15 +67,13 @@ header {
     text-align: center;
 }
 header h1 {
+    font-family: monospace;
+    padding-top: 45px;
     font-size: 72px;
     color: #ffffff;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #17007a;
 }
-header p {
-    font-size: 24px;
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
-}
+
 
 /* Main content styles */
 main {
