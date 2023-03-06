@@ -1,0 +1,46 @@
+/* Navigation bar styles */
+nav {
+    background-color: #222222;
+    padding: 10px 0;
+}
+nav ul li a {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    background-color: #444444;
+}
+
+/* Header styles */
+header {
+
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header h1 {
+    font-size: 72px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+header p {
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 40px;
+    line-height: 1.5;
+}
+main p {
+    margin-bottom: 20px;
+}

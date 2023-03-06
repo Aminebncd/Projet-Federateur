@@ -1,0 +1,48 @@
+@import url(../css/content.css
+);
+@import url(/css/contactform.css);
+
+
+      body {
+        font-family: monospace;
+        margin: 0;
+        padding: 0;
+        background-color: #c6c0fa;
+        color: #22134b;
+      }
+      a {
+        text-decoration: none;
+        color: #9176d5;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Oswald', sans-serif;
+        margin-top: 0;
+      }
+
+/* grille d'image pour la page de présentation*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+img {
+    transition:transform 0.1s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+      
+
+ 
