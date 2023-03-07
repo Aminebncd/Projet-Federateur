@@ -2,7 +2,6 @@
 nav {
     background-color: #130450;
     margin: auto;
-
     text-align: center;
 }
 
@@ -11,12 +10,12 @@ nav ul li a {
     font-size: 18px;
     padding: 10px 20px;
     color: #e7e9ff;
-    display: flex;
+    display: inline-block;
 
 }
-nav ul li a:hover {
+nav ul li :hover {
     background-color: #230896;
-    min-width: 100px;
+
 }
 
 /* Styles pour le menu dropdown */
