@@ -85,3 +85,18 @@ main {
 main p {
     margin-bottom: 20px;
 }
+
+.source{
+    text-align: center;
+    font-size: small;
+}
+
+.travailtxt{
+    text-align: left;
+    margin: 1cm;
+}
+
+.homer{
+    display: block;
+    margin: auto;
+}
